@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>EncriptaFAST</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img src="imagenes/logo.Alura.png">
+            <h2>Primer Challenge ALURA Latam + Oracle ONE</h2>
+        </header>
+        <section id="seccion"><br><br>
+            <label id="mensaje-invalido"></label><br>
+            <input type="text" id="entrada" title="Solo letras minúsculas, sin caracteres especiales. Se admiten comas y puntos." placeholder="Ingrese el texto aquí"><br><br>
+            <button class="boton" id="btn-encriptar">Encriptar</button>
+            <button class="boton" id="btn-desencriptar">Desencriptar</button>
+            <button class="boton" id="btn-borrar-entrada">Borrar Entrada</button><br><br><br>
+            <input type="text" id="texto-copiado" placeholder="Mensaje de salida"><br><br>
+            <button class="boton" id="btn-copiar">Copiar Salida</button>
+            <button class="boton" id="btn-borrar-salida">Borrar Salida</button>
+        </section>
+        <footer>Autor: Damián Matías Bandeo</footer>
+    </body>
+    <script src="borrar-copiar.js"></script>
+    <script src="desencriptarMensaje.js"></script>
+    <script src="encriptarMensaje.js"></script>
+    <script src="validarEntrada.js"></script>
+</html>

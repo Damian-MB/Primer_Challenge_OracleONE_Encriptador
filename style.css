@@ -1,0 +1,79 @@
+#seccion {
+    background-image: url(imagenes/fondo.jpg);
+    background-size: 25%;
+    background-repeat: repeat;
+    height: 400px;
+    width: 100%;
+}
+
+.boton {
+    color: black;
+    font-weight: bold;
+    background-color: rgb(245, 184, 71);
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 0.5em;
+    font-size: 15px;
+    border-style: double;
+    width: 10%;
+}
+
+input {
+    width: 40%;
+    height: 30px;
+    border-style: double;
+    justify-content: center; 
+    font-size: larger;
+    margin-left: 28%;
+}
+
+#mensaje-invalido {
+    color: red;
+    font-size: larger;
+    background-color: #ffffff;
+    margin-left: 33%;
+  }
+
+footer {
+    background-color: rgb(17, 17, 17);
+    border-radius: 3px;
+    color: white;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 5px;
+    border-style: outset;
+}
+
+img {
+    max-width: 50px;
+    max-height: 50px;
+    border-style: none outset none none;
+}
+
+h2 {
+    display: inline-block;
+    font-size: 25px;
+    margin: 0px;
+    vertical-align: top;
+    padding-left: 10px;
+    padding-top: 15px;
+    color: #ffffff;
+    
+}
+
+header {
+    background-color: #2962ff;
+    height: 50px;
+    border-style: outset;  
+}
+
+#btn-encriptar {
+    margin-left: 33%;
+}
+
+#btn-copiar {
+    margin-left: 38%;
+}
